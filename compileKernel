@@ -1,0 +1,9 @@
+wget https://www.kernel.org/pub/linux/kernel/v3.0/linux-3.19.tar.gz
+tar zxvf linux-3.19.tar.gz
+yum install ncurses-devel
+make menuconfig
+make
+make modules
+make modules_install
+make install
+reboot
