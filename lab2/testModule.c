@@ -1,6 +1,6 @@
 #include "linux/init.h"
 #include "linux/module.h"
-#include "add_sub.h"
+#include "/home/user1/repository/LinuxDriverTest/lab2/add_sub/add_sub.h"
 
 static long a = 1;
 static long b = 1;
